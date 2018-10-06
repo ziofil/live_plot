@@ -19,7 +19,7 @@ data = defaultdict(list)
 for i in range(100):
     data['foo'].append(np.sin(i/10) + 0.1*np.random.random())
     data['bar'].append(np.random.random()+0.3)
-    live_plot(i,data)
+    live_plot(data)
 ```
 
 you should observe this in the cell output (the framerate will depend on the speed of the loop)
