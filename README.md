@@ -8,7 +8,7 @@ Live plot covers only `pyplot.plot` (for now) and requires some explicit imports
 The working principle is simple: create a loop in which you populate a dictionary with the data you want to plot. Use the keys to label different datasets. Still within the loop, pass it to live_plot, sit back and watch.
 
 ### Example
-After importing the required libraries and defining the `live_plot` function (see example notebook), populate the dictionary in a loop. Better still, use a `defaultdict` to return an empty list the first time you use a nonexisting key:
+After importing the required libraries and defining the `live_plot` function (see example notebook), populate the dictionary in a loop. Better still, use a `defaultdict` to return an empty list the first time you use a new key:
 
 ```python
 import numpy as np
