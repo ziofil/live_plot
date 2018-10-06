@@ -12,6 +12,8 @@ Import the required libraries and functions
 
 ```python
 from IPython.display import clear_output
+from matplotlib import pyplot as plt
+import numpy as np
 from collections import defaultdict
 ```
 
